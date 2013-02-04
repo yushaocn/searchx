@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* Reset Definitions
+----------------------------------------*/
+body, div, p, a, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, textarea, select, button, th, td { margin:0; padding:0; font-size:12px; }
+a { text-decoration:none; }
+img { border:0; }
+img, input, textarea, select, button { vertical-align:middle; _vertical-align:text-bottom; }
+table, th, td { font-size:12px; font-family:inherit; line-height:inherit; }
+td, textarea { word-wrap:break-word; word-break:break-all; }
+ul, ol, li { list-style:none; }
+dl, em, i, u, q, s, caption { font-style:normal; font-weight:normal; text-decoration:none; }
+
+/* Global Definitions
+----------------------------------------*/
+.fl { float:left; _display:inline; }
+.fr { float:right; _display:inline; }
+.clear { clear:both; }
+.clearfix { display:block; *display:inline-block; _height:1%; }
+.clearfix:after { content:'\20'; display:block; clear:both; height:0; visibility:hidden; }
+
+/* WebSite Definition
+----------------------------------------*/
+body { background:#FFF; font-family:Arial, Helvetica, sans-serif; }
+/* .header { margin-bottom:100px; width:100%; height:36px; background:#222; line-height:36px; } */
+.header { overflow:hidden; margin-bottom:40px; width:100%; height:36px; background:#FFF; border-bottom:1px solid #CCC; line-height:36px; }
+.header a { display:inline-block; width:70px; color:#0000CC; font-size:12px; text-align:center; text-decoration:underline; }
+.header a.current { color:#222; font-size:12px; font-weight:bold; text-decoration:none; }
+/*.header .fr a { margin-right:20px; color:#222; font-size:20px; font-weight:bold; }*/
+.searchwrap { margin:0 auto; width:700px; }
+.searchwrap .logo { margin:0 auto; margin-bottom:20px; width:600px; height:220px; background:url(../images/logo.jpg) no-repeat center center; }
+.searchwrap .forminput { margin:0 auto; width:570px; }
+.searchwrap .input_wrap { display:inline-block; border-right:1px solid #E8E8E8; border-bottom:1px solid #E8E8E8; }
+.searchwrap .input_text { padding-left:5px; padding-right:5px; width:460px; height:30px; border-top:1px solid #CCC; border-right:1px solid #AAA; border-bottom:1px solid #AAA; border-left:1px solid #CCC; font-family:Arial, sans-serif; font-size:18px; line-height:30px; }
+.searchwrap .input_btn { width:90px; height:32px; background:#F5F5F5 url(../images/bg.png) repeat-x left top; border:1px solid #CCC; border-radius:3px; color:#666; font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:30px; cursor:pointer; }
+.searchwrap .input_btn:hover { background:#F4F4F4 url(../images/bg.png) repeat-x left -5px; border:1px solid #C6C6C6; border-radius:3px; color:#333; }
+.searchwrap .formoperator { margin:10px auto; width:570px; height:20px; line-height:20px; }
+.searchwrap .formoperator span { display:none; }
+.searchwrap .formoperator label { margin-right:10px; }
+.link { margin-top:20px; font-size:14px; text-align:center; }
+.link a { margin-right:15px; color:#0000CC; font-size:14px; text-decoration:underline; }
+.footer { margin:100px auto 0; padding-top:10px; width:570px; border-top:1px solid #CCC; text-align:center; }
+.footer p { height:20px; line-height:20px; }
+.footer a { margin-left:5px; margin-right:5px; color:#0000CC; text-decoration:underline; }
